@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en" data-color-mode="dark">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#9d4edd">
+    <meta name="keywords" content="Nonton Film gratis,Streaming Film gratis">
+    <meta name="author" content="Filmsku">
+    <meta name="description" content="Filmsku | Nonton Film Bajakan gratis selama tidak di banned">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="vendor/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/assets/owl.theme.default.min.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/icons/camera-reels.svg">
+    <!--pace.js-->
+    <script src="vendor/pace/pace.js"></script>
+    <link href="vendor/pace/pace-theme-default.css" rel="stylesheet" />
+    <script src="assets/js/main.start.js"></script>
+    <!-- Title -->
+    <title>Home | Filmsku</title>
+  </head>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top" id="nav">
+    <div class="container d-flex justify-content-between">
+      <div class="content-left">
+        <a class="navbar-brand" href="#" data-aos="zoom-in" data-bs-toggle="offcanvas" data-bs-target="#MobileMenu">Filmsku</a>
+        <span class="badge rounded-pill bg-secondary">beta</span>
+      </div>
+      <div class="content-right d-flex align-items-center justify-content-around">
+      <form action="" method="GET" class="px-1">
+        <div class="input-search-wrapper d-flex rounded-pill">
+          <input type="search" class="px-3 rounded-pill bg-transparent py-1" placeholder="Search">
+          <button role="button" type="submit" class="border-0 pe-2 rounded-pill bg-transparent">
+            <i class="search-icon bi bi-search"></i>
+          </button>
+        </div>
+      </form>
+      <div class="dropdown dropstart px-1">
+        <a id="dropdown-nav" data-bs-toggle="dropdown">
+          <i class="bi bi-three-dots-vertical"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li>
+            <div class="form-check form-switch dropdown-item">
+              <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+              <label for="flexSwitchCheckDefault">Dark Mode</label>
+            </div>
+          </li>
+        </ul>
+      </div>
+        <div class="circle btn openModal">
+        <img src="assets/icons/user.svg" alt="user-svg" class="user-svg">
+      </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Modal -->
+  <div class="modal">
+    <div class="modal-content m-auto rounded-2">
+      <div class="d-flex justify-content-between align-items-center pt-3 px-3 pb-0">
+        <h5>Filmsku | Login to Continue</h5>
+        <button type="button" class="btn-close btn-close-white closeModal">
+      </div>
+      <div class="d-flex align-items-center justify-content-around p-2">
+        <div class="col-md-7">
+          <p class="text-center fs-6 p-0">Log In</p>
+          <form action="" method="POST" class="m-auto pt-3">
+            <div class="pb-2">
+              <div class="d-flex input-wrapper">
+                <label for="username" class="label-input">
+                  <i class="bi bi-person-circle p-2"></i>
+                </label>
+                <input type="text" name="username" id="username" class="px-2 py-1 bg-transparent" placeholder="enter Username">
+              </div>
+              <!-- <span class="invalid-message fst-italic text-dark p-1">Lorem ipsum dolor sit amet.</span> -->
+            </div>
+            <div class="pb-2">
+              <div class="d-flex input-wrapper">
+                <label for="password" class="label-input">
+                  <i class="bi bi-unlock-fill p-2"></i>
+                </label>
+                <input type="password" name="password" id="password" class="px-2 py-1 bg-transparent" placeholder="enter Password">
+              </div>
+              <!-- <span class="invalid-message fst-italic text-dark p-1">Lorem ipsum dolor sit amet.</span> -->
+            </div>
+            <div class="form-link">
+              <p class="text-center">
+                <a href="#" class="link-dark text-decoration-none">Sign Up</a> | <a href="#"class="link-dark text-decoration-none">Forgot Password?</a>
+              </p>
+            </div>
+            <button role="button" type="submit" class="button-submit rounded-pill btn btn-success px-5 ms-5" name="submit">Log In</button>
+          </form>
+        </div>
+        <div class="col-md-3">
+          <p class="third-party-apps text-muted">LogIn via Third party Apps</p>
+          <ul class="list-unstyled">
+            <li class="px-2 py-1 bg-secondary rounded-pill mb-1">
+              <a href="#" class="text-decoration-none text-white"><i class="p-1 bi bi-google text-danger"></i>Google</a>
+            </li>
+            <li class="px-2 py-1 bg-secondary rounded-pill mb-1">
+              <a href="#" class="text-decoration-none text-white"><i class="p-1 bi bi-facebook text-primary"></i>Facebook</a>
+            </li>
+            <li class="px-2 py-1 bg-secondary rounded-pill mb-1">
+              <a href="#" class="text-decoration-none text-white"><i class="p-1 bi bi-twitter text-info"></i>Twitter</a>
+            </li>
+          </ul>
+          <hr>
+          <p class="third-party-apps text-muted">
+            Login means you agree the Terms and Privacy Policy.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Container Carousel -->
+  <section class="container-carousel">
+    <!-- Bootstrap Carousel -->
+    <div id="main-carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause="false" data-bs-touch="true">
+      <!-- Indicator Carousel -->
+      <!-- <div class="carousel-indicators">
+        <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+        </button>
+        <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="1" aria-label="Slide 2">
+        </button>
+        <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="2" aria-label="Slide 3">
+        </button>
+        <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="3" aria-label="Slide 4">
+        </button>
+        <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="4" aria-label="Slide 5">
+        </button>
+        <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="5" aria-label="Slide 6">
+        </button>
+      </div> -->
+      <!-- Main Carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/img/dg1.jpg" class="d-block" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-4">Days Gone</h5>
+            <p class="status-film">
+              <div class="badge bg-success fw-bold">Original</div> | 16 Episode <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident voluptate reprehenderit, assumenda a dolores harum id veniam excepturi maiores, asperiores nihil dolorem consequatur ipsam, est similique? Pariatur quasi.
+            </p>
+            <a class="px-3 py-2 bg-success rounded-pill m-1 text-white text-decoration-none" href="#"><i class="bi bi-play-fill"></i> Tonton</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/dg2.jpg" class="d-block" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-4">Move To Heaven</h5>
+            <p class="status-film">
+              <div class="badge bg-success fw-bold">Original</div> | 16 Episode <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident voluptate reprehenderit, assumenda a dolores harum id veniam excepturi maiores, asperiores nihil dolorem consequatur ipsam, est similique? Pariatur quasi.
+            </p>
+            <a class="px-3 py-2 bg-success rounded-pill m-1 text-white text-decoration-none" href="#"><i class="bi bi-play-fill"></i> Tonton</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/UPINLAND.jpg" class="d-block" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-4">Fabricated City</h5>
+            <p class="status-film">
+              <div class="badge bg-success fw-bold">Original</div> | 16 Episode <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident voluptate reprehenderit, assumenda a dolores harum id veniam excepturi maiores, asperiores nihil dolorem consequatur ipsam, est similique? Pariatur quasi.
+            </p>
+            <a class="px-3 py-2 bg-success rounded-pill m-1 text-white text-decoration-none" href="#"><i class="bi bi-play-fill"></i> Tonton</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/movetoheavenedit.jpg" class="d-block" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-4">Dua Garis Biru</h5>
+            <p class="status-film">
+              <div class="badge bg-success fw-bold">Original</div> | 16 Episode <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident voluptate reprehenderit, assumenda a dolores harum id veniam excepturi maiores, asperiores nihil dolorem consequatur ipsam, est similique? Pariatur quasi.
+            </p>
+            <a class="px-3 py-2 bg-success rounded-pill m-1 text-white text-decoration-none" href="#"><i class="bi bi-play-fill"></i> Tonton</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/dg2.jpg" class="d-block" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-4">I Heart(t)You</h5>
+            <p class="status-film">
+              <div class="badge bg-success fw-bold">Original</div> | 16 Episode <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident voluptate reprehenderit, assumenda a dolores harum id veniam excepturi maiores, asperiores nihil dolorem consequatur ipsam, est similique? Pariatur quasi.
+            </p>
+            <a class="px-3 py-2 bg-success rounded-pill m-1 text-white text-decoration-none" href="#"><i class="bi bi-play-fill"></i> Tonton</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/dg1.jpg" class="d-block" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="fs-4">Interstelar</h5>
+            <p class="status-film">
+              <div class="badge bg-success fw-bold">Original</div> | 16 Episode <br>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente provident voluptate reprehenderit, assumenda a dolores harum id veniam excepturi maiores, asperiores nihil dolorem consequatur ipsam, est similique? Pariatur quasi.
+            </p>
+            <a class="px-3 py-2 bg-success rounded-pill m-1 text-white text-decoration-none" href="#"><i class="bi bi-play-fill"></i> Tonton</a>
+          </div>
+        </div>
+      </div>
+      <!-- Button Carousel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#main-carousel" data-bs-slide="prev">
+        <i class="bi bi-caret-left"></i>
+        <span class="visually-hidden carousel-prev">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#main-carousel" data-bs-slide="next">
+        <i class="bi bi-caret-right"></i>
+        <span class="visually-hidden  carousel-next">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="gradient-color"></section>
+
+  <div class="container-wrapper">
+    <section class="container-main">
+      <!-- Owl Carousel role->Indonesia -->
+      <div class="owl-carousel" id="lazyScrollLoading_ImageMode">
+        <div class="card-film item" >
+          <a href="desc.html">
+            <img data-src="../Bootstrap - Rev/img/move-to-heaven.png" alt="" class="owl-lazy">
+          </a>
+          <p>Move To Heaven</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap - Rev/img/UPINKERIS.jpg" alt="" class="owl-lazy">
+          <p>Siamang Tunggal</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/AXL.jpg" alt="" class="owl-lazy">
+          <p>AXL</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/CITY.jpg" alt="" class="owl-lazy">
+          <p>Fabricated City</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/DUA.jpg" alt="" class="owl-lazy">
+          <p>Dua Garis Biru</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/HEART.jpg" alt="" class="owl-lazy">
+          <p>I Heart (t) you</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/INTER.jpg" alt="" class="owl-lazy">
+          <p>Interstelar</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/KNOW.jpg" alt="" class="owl-lazy">
+          <p>Knowing</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/RETRIBUTION.jpg" alt="" class="owl-lazy">
+          <p>Resident Evil RE</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/RIM.jpg" alt="" class="owl-lazy">
+          <p>Pacific Rim</p>
+        </div>
+        <a href="play.html">
+          <div class="card-film item" >
+          <img data-src="../Bootstrap - Rev/img/move-to-heaven.png" alt="" class="owl-lazy">
+          <p>Move To Heaven</p>
+        </div>
+        </a>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap - Rev/img/UPINKERIS.jpg" alt="" class="owl-lazy">
+          <p>Siamang Tunggal</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/AXL.jpg" alt="" class="owl-lazy">
+          <p>AXL</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/CITY.jpg" alt="" class="owl-lazy">
+          <p>Fabricated City</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/DUA.jpg" alt="" class="owl-lazy">
+          <p>Dua Garis Biru</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/HEART.jpg" alt="" class="owl-lazy">
+          <p>I Heart (t) you</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/INTER.jpg" alt="" class="owl-lazy">
+          <p>Interstelar</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/KNOW.jpg" alt="" class="owl-lazy">
+          <p>Knowing</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/RETRIBUTION.jpg" alt="" class="owl-lazy">
+          <p>Resident Evil RE</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/RIM.jpg" alt="" class="owl-lazy">
+          <p>Pacific Rim</p>
+        </div>
+      </div>
+
+      <!-- Navbar Owl Carousel -->
+      <div class="navbar-carousel">
+        <div class="container-fluid">
+          <div class="title-role">
+            <a class="navbar-brand">Indonesia Films</x>
+            <a class="link-light text-muted" href="#">
+              View All <i class="bi bi-chevron-compact-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Owl Carousel role->Indonesia -->
+      <div class="owl-carousel" id="lazyScrollLoading_ImageMode">
+        <div class="card-film item" >
+          <a href="#">
+            <img data-src="../Bootstrap - Rev/img/move-to-heaven.png" alt="" class="owl-lazy">
+          </a>
+          <p>Move To Heaven</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap - Rev/img/UPINKERIS.jpg" alt="" class="owl-lazy">
+          <p>Siamang Tunggal</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/AXL.jpg" alt="" class="owl-lazy">
+          <p>AXL</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/CITY.jpg" alt="" class="owl-lazy">
+          <p>Fabricated City</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/DUA.jpg" alt="" class="owl-lazy">
+          <p>Dua Garis Biru</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/HEART.jpg" alt="" class="owl-lazy">
+          <p>I Heart (t) you</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/INTER.jpg" alt="" class="owl-lazy">
+          <p>Interstelar</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/KNOW.jpg" alt="" class="owl-lazy">
+          <p>Knowing</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/RETRIBUTION.jpg" alt="" class="owl-lazy">
+          <p>Resident Evil RE</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/RIM.jpg" alt="" class="owl-lazy">
+          <p>Pacific Rim</p>
+        </div>
+        <a href="play.html">
+          <div class="card-film item" >
+          <img data-src="../Bootstrap - Rev/img/move-to-heaven.png" alt="" class="owl-lazy">
+          <p>Move To Heaven</p>
+        </div>
+        </a>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap - Rev/img/UPINKERIS.jpg" alt="" class="owl-lazy">
+          <p>Siamang Tunggal</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/AXL.jpg" alt="" class="owl-lazy">
+          <p>AXL</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/CITY.jpg" alt="" class="owl-lazy">
+          <p>Fabricated City</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/DUA.jpg" alt="" class="owl-lazy">
+          <p>Dua Garis Biru</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/HEART.jpg" alt="" class="owl-lazy">
+          <p>I Heart (t) you</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/INTER.jpg" alt="" class="owl-lazy">
+          <p>Interstelar</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/KNOW.jpg" alt="" class="owl-lazy">
+          <p>Knowing</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/RETRIBUTION.jpg" alt="" class="owl-lazy">
+          <p>Resident Evil RE</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/RIM.jpg" alt="" class="owl-lazy">
+          <p>Pacific Rim</p>
+        </div>
+      </div>
+
+      <!-- Navbar Owl Carousel -->
+      <div class="navbar-carousel">
+        <div class="container-fluid">
+          <div class="title-role">
+            <a class="navbar-brand">Indonesia Films</x>
+            <a class="link-light text-muted" href="#">
+              View All <i class="bi bi-chevron-compact-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Owl Carousel role->Indonesia -->
+      <div class="owl-carousel" id="lazyScrollLoading_ImageMode">
+        <div class="card-film item" >
+          <a href="#">
+            <img data-src="../Bootstrap - Rev/img/move-to-heaven.png" alt="" class="owl-lazy">
+          </a>
+          <p>Move To Heaven</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap - Rev/img/UPINKERIS.jpg" alt="" class="owl-lazy">
+          <p>Siamang Tunggal</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/AXL.jpg" alt="" class="owl-lazy">
+          <p>AXL</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/CITY.jpg" alt="" class="owl-lazy">
+          <p>Fabricated City</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/DUA.jpg" alt="" class="owl-lazy">
+          <p>Dua Garis Biru</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/HEART.jpg" alt="" class="owl-lazy">
+          <p>I Heart (t) you</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/INTER.jpg" alt="" class="owl-lazy">
+          <p>Interstelar</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/KNOW.jpg" alt="" class="owl-lazy">
+          <p>Knowing</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/RETRIBUTION.jpg" alt="" class="owl-lazy">
+          <p>Resident Evil RE</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/RIM.jpg" alt="" class="owl-lazy">
+          <p>Pacific Rim</p>
+        </div>
+        <a href="play.html">
+          <div class="card-film item" >
+          <img data-src="../Bootstrap - Rev/img/move-to-heaven.png" alt="" class="owl-lazy">
+          <p>Move To Heaven</p>
+        </div>
+        </a>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap - Rev/img/UPINKERIS.jpg" alt="" class="owl-lazy">
+          <p>Siamang Tunggal</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/AXL.jpg" alt="" class="owl-lazy">
+          <p>AXL</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/CITY.jpg" alt="" class="owl-lazy">
+          <p>Fabricated City</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/DUA.jpg" alt="" class="owl-lazy">
+          <p>Dua Garis Biru</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/HEART.jpg" alt="" class="owl-lazy">
+          <p>I Heart (t) you</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/INTER.jpg" alt="" class="owl-lazy">
+          <p>Interstelar</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/KNOW.jpg" alt="" class="owl-lazy">
+          <p>Knowing</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/RETRIBUTION.jpg" alt="" class="owl-lazy">
+          <p>Resident Evil RE</p>
+        </div>
+        <div class="card-film item" >
+          <img data-src="../Bootstrap4/assets/thumbnail/RIM.jpg" alt="" class="owl-lazy">
+          <p>Pacific Rim</p>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+  <!-- Footer -->
+  <footer>
+    <div class="row">
+    <div class="col-md-6">
+      <div class="text-uppercase text-muted fs-6">BUILD WITH TECH</div>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus,
+        rerum possimus. Aliquid animi reiciendis labore, eum doloribus tempora
+        tenetur dolorum qui ipsa eius neque! Et dolorum tempore impedit omnis
+        voluptatum!
+    </div>
+    <div class="col-md-3">
+        <div class="text-uppercase text-muted fs-6">thanks to</div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+        facilis!
+    </div>
+    <div class="col-md-2">
+        <div class="text-uppercase text-muted fs-6">Contact us</div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+        facilis!
+    </div>
+  </div>
+  <hr>
+  <div class="row">
+    <div class="col-md-8">
+      <p>
+        &copy Copyright 2021 | Build with <i class="bi bi-heart-fill text-success"></i> Desing by : Alief Aditya
+      </p>
+    </div>
+    <div class="col-md-3">
+      <div class="col-md-4 d-flex gap-3">
+        <a href="https://www.instagram.com"><i class="bi bi-instagram text-success"></i></a>
+        <a href=""><i class="bi bi-facebook text-success"></i></a>
+        <a href=""><i class="bi bi-twitter text-success"></i></a>
+        <a href="https://github.com/aiefadityanugraha"><i class="bi bi-github text-success"></i>
+        </a>
+        <a href=""><i class="bi bi-google text-success"></i></a>
+        <a href=""><i class="bi bi-youtube text-success"></i></a>
+        <a href=""><i class="bi bi-discord text-success"></i></a>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+  <body>
+   <!-- Script JQuery-->
+   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+   <!-- Script Owl Carousel -->
+   <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+   <!-- Script Bootstrap -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+   <!-- My Script -->
+   <script src="assets/js/main.js"></script>
+  </body>
+</html>

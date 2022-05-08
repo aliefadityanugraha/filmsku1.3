@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="en" data-color-mode="dark">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#9d4edd">
+    <meta name="keywords" content="Nonton Film gratis,Streaming Film gratis">
+    <meta name="author" content="Filmsku">
+    <meta name="description" content="Filmsku | Nonton Film Bajakan gratis selama tidak di banned">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="vendor/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor/owlcarousel/assets/owl.theme.default.min.css">
+    <!-- My CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/desc.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/icons/camera-reels.svg">
+    <!--pace.js-->
+    <script src="vendor/pace/pace.js"></script>
+    <link href="vendor/pace/pace-theme-default.css" rel="stylesheet" />
+    <script src="assets/js/main.start.js"></script>
+    <!-- Title -->
+    <title>Home | Filmsku</title>
+  </head>
+
+  <!-- Navbar -->
+  <nav class="navbar fixed-top" id="nav">
+    <div class="container d-flex justify-content-between">
+      <div class="content-left">
+        <a class="navbar-brand" href="#" data-aos="zoom-in" data-bs-toggle="offcanvas" data-bs-target="#MobileMenu">Filmsku</a>
+        <span class="badge rounded-pill bg-secondary">beta</span>
+      </div>
+      <div class="content-right d-flex align-items-center justify-content-around">
+      <form action="" method="GET" class="px-1">
+        <div class="input-search-wrapper d-flex rounded-pill">
+          <input type="search" class="px-3 rounded-pill bg-transparent" placeholder="Search">
+          <button role="button" type="submit" class="border-0 pe-2 rounded-pill bg-transparent">
+            <i class="search-icon bi bi-search"></i>
+          </button>
+        </div>
+      </form>
+      <div class="dropdown dropstart px-1">
+        <a id="dropdown-nav" data-bs-toggle="dropdown">
+          <i class="bi bi-three-dots-vertical"></i>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+          <li>
+            <div class="form-check form-switch dropdown-item">
+              <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+              <label for="flexSwitchCheckDefault">Dark Mode</label>
+            </div>
+          </li>
+        </ul>
+      </div>
+        <div class="circle btn openModal">
+        <img src="assets/icons/user.svg" alt="user-svg" class="user-svg">
+      </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Modal -->
+  <div class="modal">
+    <div class="modal-content m-auto rounded-2">
+      <div class="d-flex justify-content-between align-items-center pt-3 px-3 pb-0">
+        <h5>Filmsku | Login to Continue</h5>
+        <button type="button" class="btn-close btn-close-white closeModal">
+      </div>
+      <div class="d-flex align-items-center justify-content-around p-2">
+        <div class="col-md-7">
+          <p class="text-center fs-6 p-0">Log In</p>
+          <form action="" method="POST" class="m-auto pt-3">
+            <div class="pb-2">
+              <div class="d-flex input-wrapper">
+                <label for="username" class="label-input">
+                  <i class="bi bi-person-circle p-2"></i>
+                </label>
+                <input type="text" name="username" id="username" class="px-2 py-1 bg-transparent" placeholder="enter Username">
+              </div>
+              <!-- <span class="invalid-message fst-italic text-dark p-1">Lorem ipsum dolor sit amet.</span> -->
+            </div>
+            <div class="pb-2">
+              <div class="d-flex input-wrapper">
+                <label for="password" class="label-input">
+                  <i class="bi bi-unlock-fill p-2"></i>
+                </label>
+                <input type="password" name="password" id="password" class="px-2 py-1 bg-transparent" placeholder="enter Password">
+              </div>
+              <!-- <span class="invalid-message fst-italic text-dark p-1">Lorem ipsum dolor sit amet.</span> -->
+            </div>
+            <div class="form-link">
+              <p class="text-center">
+                <a href="#" class="link-dark text-decoration-none">Sign Up</a> | <a href="#"class="link-dark text-decoration-none">Forgot Password?</a>
+              </p>
+            </div>
+            <button role="button" type="submit" class="button-submit rounded-pill btn btn-success px-5 ms-5" name="submit">Log In</button>
+          </form>
+        </div>
+        <div class="col-md-3">
+          <p class="third-party-apps text-muted">LogIn via Third party Apps</p>
+          <ul class="list-unstyled">
+            <li class="px-2 py-1 bg-secondary rounded-pill mb-1">
+              <a href="#" class="text-decoration-none text-white"><i class="p-1 bi bi-google text-danger"></i>Google</a>
+            </li>
+            <li class="px-2 py-1 bg-secondary rounded-pill mb-1">
+              <a href="#" class="text-decoration-none text-white"><i class="p-1 bi bi-facebook text-primary"></i>Facebook</a>
+            </li>
+            <li class="px-2 py-1 bg-secondary rounded-pill mb-1">
+              <a href="#" class="text-decoration-none text-white"><i class="p-1 bi bi-twitter text-info"></i>Twitter</a>
+            </li>
+          </ul>
+          <hr>
+          <p class="third-party-apps text-muted">
+            Login means you agree the Terms and Privacy Policy.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="image-gradient">
+    <img src="assets/img/dg1.jpg" class="d-block" alt="...">
+  </section>
+
+  <section class="gradient-color"></section>
+
+  <div class="container-wrapper">
+    <div class="container-desc">
+      <div class="row">
+        <div class="col-md-2">
+          <img src="../Bootstrap - Rev/img/move-to-heaven.png" class="details-img" />
+        </div>
+        <div class="col-md-10">
+          <h1>Move To Heaven <button type="submit" class="rounded-pill btn btn-success"><i class="bi bi-play-circle p-1"></i> Tonton</button></h1>
+          <p class="status-film">
+            <div class="badge bg-success">Original</div> | <div class="badge bg-secondary">13+</div> | <div class="badge bg-warning">2021</div> | <div class="badge bg-spanrimary">1:02:27</div>
+          </p>
+          <p class="ReadMore">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, dignissimos molestiae? Molestias quam cumque sequi inventore dolores sed a voluptatibus.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad praesentium quidem totam sed vero, impedit reiciendis ratione eligendi obcaecati autem consequatur explicabo saepe molestiae eveniet possimus, tempora eaque, nam velit?
+            <span id="dots">...</span>
+            <span id="more">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad praesentium quidem totam sed vero, impedit reiciendis ratione eligendi obcaecati autem consequatur explicabo saepe molestiae eveniet possimus, tempora eaque, nam velit?
+            </span>
+            <span class="text-success" id="btnReadMore">Read more</span>
+          </p>
+          <div class="row">
+            <div class="col-md-6">
+              <ul>
+                <li>
+                  <div class="rating">Rating : 9,4
+                    <i class="bi bi-star-fill text-success"></i>
+                    <i class="bi bi-star-fill text-success"></i>
+                    <i class="bi bi-star-fill text-success"></i>
+                    <i class="bi bi-star-fill text-success"></i>
+                    <i class="bi bi-star-half text-success"></i>
+                  </div>
+                </li>
+                <li>Genre : Schoul,Romance,Drama</li>
+                <li>Negara : Korea</li>
+                <li>Sutradara : Anonymous</li>
+              </ul>
+            </div>
+            <div class="col-md-6">
+              <ul>
+                <li>Pemain : Unknow</li>
+                <li>Jumlah Episode : 12</li>
+                <li>Rilis : 1 Desember 2021</li>
+                <li>Update On : 04 Desember 2021</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tabs -->
+      <div class="d-flex justify-content-center">
+        <ul class="nav nav-pills mb-3 p-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-white active" id="pills-episode-tab" data-bs-toggle="pill" data-bs-target="#pills-episode" type="button" role="tab" aria-controls="pills-episode" aria-selected="true">Episode</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-white" id="pills-trailer-tab" data-bs-toggle="pill" data-bs-target="#pills-trailer" type="button" role="tab" aria-controls="pills-trailer" aria-selected="false">Trailer</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link text-white" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+          </li>
+        </ul>
+      </div>
+      <div class="tab-content fade show" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-episode" role="tabpanel" aria-labelledby="pills-home-tab">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex repellendus ut excepturi. Aliquid mollitia voluptatem culpa soluta quo, ducimus voluptatum minima odit corrupti veritatis explicabo quisquam aperiam impedit minus.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex repellendus ut excepturi. Aliquid mollitia voluptatem culpa soluta quo, ducimus voluptatum minima odit corrupti veritatis explicabo quisquam aperiam impedit minus.
+        </div>
+        <div class="tab-pane fade" id="pills-trailer" role="tabpanel" aria-labelledby="pills-profile-tab">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate, voluptas aliquid magnam laborum iure quos explicabo nobis quae iusto sit, natus cupiditate eos consequatur voluptates ratione libero excepturi vitae velit?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex repellendus ut excepturi. Aliquid mollitia voluptatem culpa soluta quo, ducimus voluptatum minima odit corrupti veritatis explicabo quisquam aperiam impedit minus.
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore officiis, iusto velit consequatur corporis fuga odit explicabo beatae corrupti porro. Natus vitae recusandae atque, voluptatem dicta illum beatae ab animi.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi ex repellendus ut excepturi. Aliquid mollitia voluptatem culpa soluta quo, ducimus voluptatum minima odit corrupti veritatis explicabo quisquam aperiam impedit minus.
+        </div>
+      </div>
+     <!-- Footer -->
+      <footer>
+        <div class="row">
+        <div class="col-md-6">
+          <div class="text-uppercase text-muted fs-6">BUILD WITH TECH</div>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus,
+            rerum possimus. Aliquid animi reiciendis labore, eum doloribus tempora
+            tenetur dolorum qui ipsa eius neque! Et dolorum tempore impedit omnis
+            voluptatum!
+        </div>
+        <div class="col-md-3">
+            <div class="text-uppercase text-muted fs-6">thanks to</div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+            facilis!
+        </div>
+        <div class="col-md-2">
+            <div class="text-uppercase text-muted fs-6">Contact us</div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
+            facilis!
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-md-8">
+          <p>
+            &copy Copyright 2021 | Build with <i class="bi bi-heart-fill text-success"></i> Desing by : Alief Aditya
+          </p>
+        </div>
+        <div class="col-md-3">
+          <div class="col-md-4 d-flex gap-3">
+            <a href="https://www.instagram.com"><i class="bi bi-instagram text-success"></i></a>
+            <a href=""><i class="bi bi-facebook text-success"></i></a>
+            <a href=""><i class="bi bi-twitter text-success"></i></a>
+            <a href="https://github.com/aiefadityanugraha"><i class="bi bi-github text-success"></i>
+            </a>
+            <a href=""><i class="bi bi-google text-success"></i></a>
+            <a href=""><i class="bi bi-youtube text-success"></i></a>
+            <a href=""><i class="bi bi-discord text-success"></i></a>
+          </div>
+        </div>
+      </div>
+      </footer>
+    </div>
+  </div>
+  
+  <body>
+   <!-- Script JQuery-->
+   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+   <!-- Script Owl Carousel -->
+   <script src="vendor/owlcarousel/owl.carousel.min.js"></script>
+   <!-- Script Bootstrap -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+   <!-- My Script -->
+   <script src="assets/js/main.js"></script>
+   <script src="assets/js/readmore.js"></script>
+  </body>
+</html>
